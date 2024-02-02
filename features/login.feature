@@ -12,7 +12,7 @@ Feature: Trneny Indra Avitech email test case
     When Log in to email
     Then Check that you are logged in
     When Write a new email message
-    And Send the message to professorcze@gmail.com
+    And Send the message to trneny.lukas@email.cz
     And Logout from email
 
 
@@ -22,5 +22,5 @@ Feature: Trneny Indra Avitech email test case
     Then Check that you are logged in
     When Write a new email message
     And Add attachment to the email
-    And Send the message to professorcze@gmail.com
+    And Send the message to trneny.lukas@email.cz
     And Logout from email
